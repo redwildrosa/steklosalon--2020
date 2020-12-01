@@ -1,0 +1,30 @@
+._block_stiker {
+	position: relative;
+    width: 280px; height: 250px;
+    padding: 10px;
+	margin-right: 30px;
+    background: #3dA6dc;
+    color: white;
+	float: left;
+    }
+._block_stiker:last-child {
+	margin-right: 0;
+}
+
+._block_stiker h2 {
+    font-size: 20px; font-weight: normal;
+    padding: 0; margin: 10px 10px;
+    
+    }
+
+._block_stiker p {
+    padding: 0; margin: 20px 10px 25px;
+    }
+
+/* Дополнительный параметр для позиционирования кнопки моребут, остальные свойства в общих*/
+._block_stiker .butt {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+	

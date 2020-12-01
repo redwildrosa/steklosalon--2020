@@ -1,0 +1,59 @@
+
+._block_main {
+	width: 100%;
+	height: 360px;
+	background: #ffffff url("/_data/_imgs_block/_img_bathroom.png") no-repeat 50% 50%;
+	padding: 0; 
+	margin: 0;
+}
+
+._block_main .stiker {
+	position: relative; top: 50%;
+	transform: translateY(-50%);
+	padding: 0;
+	text-align: left;
+}
+
+._block_main h2 {
+	color: #777;
+	font-size: 32px;
+	line-height: 54px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #777777;
+	text-align: left;
+}
+
+._block_main h2 span {
+	background: #fff;
+	padding: 0px 8px 8px;
+	padding-top: -8px;
+	
+}
+
+._block_main p {
+	display: inline-block;
+	margin: 10px 0;
+	background-color: rgba(255,255,255,0.35);
+	padding: 0px 8px 4px;
+	
+	font-weight: normal;
+	font-size: 16px;
+}
+
+._block_main a {
+	display: inline-block;
+	min-width: 120px;
+	text-align: center;
+	margin: 10px 5px; padding: 7px 10px;
+	font-weight: bold;
+	border-radius: 5px;
+	background: #ffcf37;
+	text-decoration: none;
+	color: #333333;
+	border: 2px solid #efefee;
+}
+
+._block_main a:hover {
+	background: #e6af00;
+	color: #333333;
+}

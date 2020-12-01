@@ -1,0 +1,50 @@
+
+.mainmenu-gr {
+	position: relative;
+	min-height: 37px;
+	list-style: none;
+	padding: 0 10px; 
+	margin: 0;
+	background-color: #ffcf37;
+	text-align: right;
+
+	font-size: 1.0em; 
+}
+
+.mainmenu-gr li {
+	display: inline-block;
+    border: 0px solid #222222;
+	padding: 5px 10px 5px 10px; 
+	margin: 0;
+	min-height: 37px;
+	border-bottom: 3px solid #ffcf37;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+
+.mainmenu-gr li:first-child {
+	position: absolute;
+	top: 0;
+	left: 10;
+	width: 80px;
+	border: 1px dashed #333;
+	text-align: center;
+	}
+
+
+.mainmenu-gr li a, .topmenu li a:visited {
+	display: block;
+	color: #333333; 
+	font-weight: bold; 
+	font-family: Tahoma;
+	text-decoration: none;
+	
+}
+
+.mainmenu-gr .active  {
+	border-bottom: 3px solid black;
+}
+
+.mainmenu-gr li:hover  {
+	border-bottom: 3px solid black;
+}

@@ -1,0 +1,53 @@
+
+header.str {
+	padding: 0; 
+	margin: 0;
+}
+
+header .logobox {
+	position: absolute;
+	width: 100px;
+}
+
+header .contacts {
+	padding: 0px; 
+	margin-left: 120px;
+	text-align: right;
+	color: #1d86bc;
+}
+
+header .contacts div {
+	display: inline-block;
+	margin: 10px 0px 10px 60px;
+	vertical-align: middle;
+	width: 190px;
+}
+
+header .contacts div:last-child {
+	font-weight: bold;
+}
+
+header .contacts img {
+	height: 36px;
+	float: left;
+	margin-right: 10px;
+}
+
+
+header .widthbox:nth-of-type(1) {
+	margin: 36px 0;
+
+}
+
+header ._menu_main {
+	position: absolute;
+	z-index: 100;
+}
+
+
+header .widthbox:nth-of-type(3) {
+	margin: 64px 0px 0px;
+	background: #eee;
+}
+
+
